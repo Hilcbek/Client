@@ -29,6 +29,7 @@ export const MoreInformation = () => {
                             <div className='w-14 h-14 rounded-full block mx-auto my-9'>
                                 <img className='w-full h-full object-cover rounded-full' src={selector.photo} alt="" />
                             </div>
+                            <h1 className='my-3 font-bold text-center block'>CREATER: <span>{selector.username}</span></h1>
                             <p className='flex items-start xs:justify-between font-bold my-5'><h1 className='xs:text-xs md:text-[16px]'>ID:</h1><span className='xs:text-xs md:text-[16px] ml-4 text-green-900'>{Single._id}</span></p>
                             <h1 className='flex items-start xs:justify-between font-bold my-5'><h1 className='xs:text-xs md:text-[16px]'>TRANSACTION NAME:</h1><span className='xs:text-xs md:text-[16px] ml-4 text-green-900'>{Single.Expensetext}</span></h1>
                             <p className='flex items-start xs:justify-between font-bold my-5'><h1 className='xs:text-xs md:text-[16px]'>CASH AMOUNT:</h1><span className='xs:text-xs md:text-[16px] ml-4 text-green-900'>${Single.Amount}</span></p>
